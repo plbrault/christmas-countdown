@@ -1,8 +1,20 @@
-import * as React from 'react';
+import React, { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 
+import getTimeToChristmas from '../src/getTimeToChristmas';
+
 export default function Index() {
+  const [timeToChristmas, setTimeToChristmas] = useState(getTimeToChristmas);
+
+  useEffect(() => {
+    setInterval(() => {
+      setTimeToChristmas(getTimeToChristmas());
+    }, 500);
+  }, []);
+
+  const { days, hours, minutes, seconds } = timeToChristmas;
+
   return (
     <Stack
       className="main-container"
@@ -15,7 +27,7 @@ export default function Index() {
         Time before Christmas
       </Box>
       <Box>
-        35 days 23 hours 18 minutes 12 seconds
+        {`${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`}
       </Box>
     </Stack>
   );
