@@ -4,6 +4,7 @@ html {
 
 body {
   height: 100%;
+  background-color: #070026 !important;
 }
 
 #__next {
@@ -12,6 +13,9 @@ body {
 
 .main-container {
   height: 100%;
+  color:  #cc2037 ;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
 }
 
 .christmas-trees {
