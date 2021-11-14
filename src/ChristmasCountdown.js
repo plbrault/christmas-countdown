@@ -9,22 +9,18 @@ import isChristmas from './isChristmas';
 export default function ChristmasCountdown() {
   const [timeToChristmas, setTimeToChristmas] = useState(getTimeToChristmas);
   const [merryChristmas, setMerryChristmas] = useState(isChristmas());
-  const [displaySnow, setDisplaySnow] = useState(false);
 
   useEffect(() => {
-    setInterval(() => {
+    const intervalID = setInterval(() => {
       if (isChristmas()) {
         if (!merryChristmas) {
           setMerryChristmas(true);
+          clearInterval(intervalID);
         }
       } else {
-        if (merryChristmas) {
-          setMerryChristmas(false);
-        }
         setTimeToChristmas(getTimeToChristmas());
       }
     }, 500);
-    setDisplaySnow(true);
   }, []);
 
   const { days, hours, minutes, seconds } = timeToChristmas;
