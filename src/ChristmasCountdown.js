@@ -18,6 +18,9 @@ export default function ChristmasCountdown() {
           setMerryChristmas(true);
         }
       } else {
+        if (merryChristmas) {
+          setMerryChristmas(false);
+        }
         setTimeToChristmas(getTimeToChristmas());
       }
     }, 500);
