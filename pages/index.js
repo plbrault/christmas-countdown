@@ -23,11 +23,24 @@ export default function Index() {
       alignItems="center"
       spacing={2}
     >
-      <Box>
-        Time before Christmas
+      <Box className="christmas-trees">
+        🎄🎄🎄
+      </Box>      
+      <Box className="label">
+        Time Left Before Christmas
       </Box>
-      <Box>
-        {`${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`}
+      <Box className="time-before-christmas">
+        <span className="number">{String(days).padStart(2, '0')}</span>
+        &nbsp;days&nbsp;
+        <span className="number">{String(hours).padStart(2, '0')}</span>
+        &nbsp;hours&nbsp;
+        <span className="number">{String(minutes).padStart(2, '0')}</span>
+        &nbsp;minutes&nbsp;
+        <span className="number">{String(seconds).padStart(2, '0')}</span>
+        &nbsp;seconds&nbsp;
+      </Box>
+      <Box className="christmas-trees">
+        🎄🎄🎄
       </Box>
     </Stack>
   );

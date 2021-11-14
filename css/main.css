@@ -13,3 +13,23 @@ body {
 .main-container {
   height: 100%;
 }
+
+.christmas-trees {
+  font-size: 2rem;
+}
+
+.label {
+  font-family: "MountainsOfChristmas";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.time-before-christmas {
+  font-family: "AmaticSC";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.number {
+  font-size: 4.5rem;
+}
