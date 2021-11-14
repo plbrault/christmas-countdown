@@ -11,7 +11,7 @@ body {
   height: 100%;
 }
 
-.main-container {
+.christmas-countdown-container {
   height: 100%;
   color:  #cc2037 ;
   -webkit-text-stroke-width: 0.5px;
@@ -33,7 +33,7 @@ body {
 }
 
 @media screen and (min-width: 300px) {
-  .main-container {
+  .christmas-countdown-container {
     -webkit-text-stroke-width: 0.25px;
   }
 
@@ -55,7 +55,7 @@ body {
 }
 
 @media screen and (min-width: 350px) {
-  .main-container {
+  .christmas-countdown-container {
     -webkit-text-stroke-width: 0.25px;
   }
 
@@ -77,7 +77,7 @@ body {
 }
 
 @media screen and (min-width: 378px) {
-  .main-container {
+  .christmas-countdown-container {
     -webkit-text-stroke-width: 0.25px;
   }
 
@@ -99,7 +99,7 @@ body {
 }
 
 @media screen and (min-width: 400px) {
-  .main-container {
+  .christmas-countdown-container {
     -webkit-text-stroke-width: 0.25px;
   }
 
