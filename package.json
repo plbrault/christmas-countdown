@@ -13,7 +13,8 @@
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-snowfall": "^1.1.0"
   },
   "scripts": {
     "dev": "next",
