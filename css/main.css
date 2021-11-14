@@ -70,7 +70,7 @@ body {
   }
   
   .time-before-christmas {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .merry-christmas {
@@ -96,7 +96,7 @@ body {
   }
   
   .time-before-christmas {
-    font-size: 1.65rem;
+    font-size: 1.5rem;
   }
 
   .merry-christmas {
@@ -122,7 +122,7 @@ body {
   }
   
   .time-before-christmas {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .merry-christmas {
@@ -165,6 +165,10 @@ body {
 }
 
 @media screen and (min-width: 600px) {
+  .christmas-countdown-container {
+    -webkit-text-stroke-width: 1px;
+  }
+
   .label {
     font-size: 1.5rem;
   }
