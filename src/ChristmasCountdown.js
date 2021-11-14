@@ -37,7 +37,7 @@ export default function ChristmasCountdown() {
         { 
           !merryChristmas &&
           <Box className="label">
-            Time Left Before Christmas
+            Time Left Until Christmas
           </Box>
         }
         <Box className="christmas-trees">
