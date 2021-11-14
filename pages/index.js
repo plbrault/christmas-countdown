@@ -12,6 +12,19 @@ export default function Index() {
     <>
       <Head>
         <meta name="apple-mobile-web-app-status-bar-style" content="#070026" />
+
+        <meta name="og:title" content="Yet Another Christmas Countdown!" />
+        <meta name="tiwtter:title" content="Yet Another Christmas Countdown!" />
+
+        <meta name="og:url" content="https://YetAnotherChristmasCountdown.com" />
+
+        <meta name="og:description" content="A Christmas Countdown with no ads or social media icons, only the countdown!" />
+        <meta name="description" content="A Christmas Countdown with no ads or social media icons, only the countdown!" />
+        <meta name="twitter:description" content="A Christmas Countdown with no ads or social media icons, only the countdown!" />
+
+        <meta name="twitter:image" content="https://yetanotherchristmascountdown.com/social-media-picture.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="og:image" content="https://yetanotherchristmascountdown.com/social-media-picture.jpg" />
       </Head>
       <Snowfall />
       <ChristmasCountdown />
