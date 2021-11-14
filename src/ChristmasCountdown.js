@@ -55,7 +55,7 @@ export default function ChristmasCountdown() {
                 <span className="number">{String(minutes).padStart(2, '0')}</span>
                 &nbsp;minutes&nbsp;
                 <span className="number">{String(seconds).padStart(2, '0')}</span>
-                &nbsp;seconds&nbsp;
+                &nbsp;seconds
               </>
             )
           }
