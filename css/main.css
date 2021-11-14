@@ -54,6 +54,10 @@ body {
   .number {
     font-size: 2.2275rem;
   }
+
+  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+    -webkit-text-size-adjust:none;
+  }
 }
 
 @media screen and (min-width: 350px) {
@@ -76,6 +80,10 @@ body {
   .number {
     font-size: 2.2275rem;
   }
+
+  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+    -webkit-text-size-adjust:none;
+  }  
 }
 
 @media screen and (min-width: 378px) {
@@ -98,6 +106,10 @@ body {
   .number {
     font-size: 2.2275rem;
   }
+
+  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+    -webkit-text-size-adjust:none;
+  }  
 }
 
 @media screen and (min-width: 400px) {
@@ -120,6 +132,10 @@ body {
   .number {
     font-size: 2.2275rem;
   }
+
+  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+    -webkit-text-size-adjust:none;
+  }  
 }
 
 @media screen and (min-width: 500px) {
@@ -142,6 +158,10 @@ body {
   .number {
     font-size: 2.8rem;
   }
+
+  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+    -webkit-text-size-adjust:none;
+  }  
 }
 
 @media screen and (min-width: 600px) {
@@ -160,6 +180,10 @@ body {
   .number {
     font-size: 3.375rem;
   }
+
+  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+    -webkit-text-size-adjust:none;
+  }  
 }
 
 @media screen and (min-width: 700px) {
@@ -178,6 +202,10 @@ body {
   .number {
     font-size: 3.375rem;
   }
+
+  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+    -webkit-text-size-adjust:none;
+  }  
 }
 
 @media screen and (min-width: 800px) {
@@ -196,4 +224,8 @@ body {
   .number {
     font-size: 4.5rem;
   }
+
+  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+    -webkit-text-size-adjust:none;
+  }  
 }
