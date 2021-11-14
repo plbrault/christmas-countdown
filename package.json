@@ -19,9 +19,12 @@
   "scripts": {
     "dev": "next",
     "build": "next export",
-    "serve": "serve out"
+    "serve": "serve out",
+    "addDomain": "echo \"yetanotherchristmascountdown.com\" > out/CNAME",
+    "deploy": "yarn build && yarn addDomain && touch out/.nojekyll && gh-pages -t -d out"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "serve": "^13.0.2"
   }
 }
