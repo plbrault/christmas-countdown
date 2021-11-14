@@ -18,8 +18,10 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+    "build": "next export",
+    "serve": "serve out"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
   }
 }
