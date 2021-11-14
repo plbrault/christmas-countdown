@@ -14,7 +14,7 @@ function getTimeToChristmas() {
   const interval = Interval.fromDateTimes(now, christmas);
   const duration = interval.toDuration(['days', 'hours', 'minutes', 'seconds']).toObject();
 
-  duration.seconds = Math.ceil(duration.seconds);
+  duration.seconds = Math.floor(duration.seconds);
 
   return duration;
 }
