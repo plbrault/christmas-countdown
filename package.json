@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "next export",
+    "build": "next build && next export",
     "serve": "serve out",
     "addDomain": "echo \"yetanotherchristmascountdown.com\" > out/CNAME",
     "deploy": "yarn build && yarn addDomain && touch out/.nojekyll && gh-pages -t -d out"
