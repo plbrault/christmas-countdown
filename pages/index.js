@@ -1,18 +1,23 @@
 import React, { useState, useEffect } from 'react';
 
+import dynamic from 'next/dynamic';
+
 import Box from '@mui/material/Box';
-import Snowfall from 'react-snowfall';
 import Stack from '@mui/material/Stack';
 
 import getTimeToChristmas from '../src/getTimeToChristmas';
 
+const Snowfall = dynamic({ loader: () => import('react-snowfall') },{ loading: () => <div></div>, ssr: false })
+
 export default function Index() {
   const [timeToChristmas, setTimeToChristmas] = useState(getTimeToChristmas);
+  const [displaySnow, setDisplaySnow] = useState(false);
 
   useEffect(() => {
     setInterval(() => {
       setTimeToChristmas(getTimeToChristmas());
     }, 500);
+    setDisplaySnow(true);
   }, []);
 
   const { days, hours, minutes, seconds } = timeToChristmas;
