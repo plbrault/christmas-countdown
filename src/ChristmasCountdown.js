@@ -23,47 +23,48 @@ export default function ChristmasCountdown() {
     }, 500);
   }, []);
 
-  const { days, hours, minutes, seconds } = timeToChristmas;
+  const {
+    days, hours, minutes, seconds,
+  } = timeToChristmas;
 
   return (
-    <>
-      <Stack
-        className="christmas-countdown-container"
-        direction="column"
-        justifyContent="center"
-        alignItems="center"
-        spacing={2}
-      >
-        { 
-          !merryChristmas &&
+    <Stack
+      className="christmas-countdown-container"
+      direction="column"
+      justifyContent="center"
+      alignItems="center"
+      spacing={2}
+    >
+      {
+        !merryChristmas && (
           <Box className="label">
             Time Left Until Christmas
           </Box>
+        )
+      }
+      <Box className="christmas-trees">
+        🎄🎄🎄
+      </Box>
+      <Box className="time-before-christmas">
+        {merryChristmas && <span className="merry-christmas">Merry Christmas!</span>}
+        {
+          !merryChristmas && (
+            <>
+              <span className="number">{String(days).padStart(2, '0')}</span>
+              &nbsp;days&nbsp;
+              <span className="number">{String(hours).padStart(2, '0')}</span>
+              &nbsp;hours&nbsp;
+              <span className="number">{String(minutes).padStart(2, '0')}</span>
+              &nbsp;minutes&nbsp;
+              <span className="number">{String(seconds).padStart(2, '0')}</span>
+              &nbsp;seconds
+            </>
+          )
         }
-        <Box className="christmas-trees">
-          🎄🎄🎄
-        </Box>    
-        <Box className="time-before-christmas">
-          {merryChristmas && <span className="merry-christmas">Merry Christmas!</span>}
-          {
-            !merryChristmas && (
-              <>
-                <span className="number">{String(days).padStart(2, '0')}</span>
-                &nbsp;days&nbsp;
-                <span className="number">{String(hours).padStart(2, '0')}</span>
-                &nbsp;hours&nbsp;
-                <span className="number">{String(minutes).padStart(2, '0')}</span>
-                &nbsp;minutes&nbsp;
-                <span className="number">{String(seconds).padStart(2, '0')}</span>
-                &nbsp;seconds
-              </>
-            )
-          }
-        </Box>
-        <Box className="christmas-trees">
-          🎄🎄🎄
-        </Box>
-      </Stack>
-    </>
+      </Box>
+      <Box className="christmas-trees">
+        🎄🎄🎄
+      </Box>
+    </Stack>
   );
 }

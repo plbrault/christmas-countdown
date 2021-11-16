@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 import ChristmasCountdown from '../src/ChristmasCountdown';
 
-const Snowfall = dynamic({ loader: () => import('react-snowfall') },{ loading: () => <div></div>, ssr: false })
+const Snowfall = dynamic({ loader: () => import('react-snowfall') },{ loading: () => <div></div>, ssr: false }) // eslint-disable-line
 
 export default function Index() {
   return (

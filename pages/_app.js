@@ -21,6 +21,26 @@ export default function MyApp(props) {
       <Head>
         <title>Yet Another Christmas Countdown!</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
+<<<<<<< Updated upstream
+=======
+
+        <meta name="apple-mobile-web-app-status-bar-style" content="#070026" />
+
+        <meta name="og:title" content="Yet Another Christmas Countdown!" />
+        <meta name="tiwtter:title" content="Yet Another Christmas Countdown!" />
+
+        <meta name="og:url" content="https://YetAnotherChristmasCountdown.com" />
+
+        <meta name="og:description" content="A Christmas Countdown with no ads or social media icons, only the countdown!" />
+        <meta name="description" content="A Christmas Countdown with no ads or social media icons, only the countdown!" />
+        <meta name="twitter:description" content="A Christmas Countdown with no ads or social media icons, only the countdown!" />
+
+        <meta name="twitter:image" content="https://yetanotherchristmascountdown.com/social-media-picture.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="og:image" content="https://yetanotherchristmascountdown.com/social-media-picture.jpg" />
+
+        <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer>{}</script>
+>>>>>>> Stashed changes
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
@@ -33,6 +53,6 @@ export default function MyApp(props) {
 
 MyApp.propTypes = {
   Component: PropTypes.elementType.isRequired,
-  emotionCache: PropTypes.object,
-  pageProps: PropTypes.object.isRequired,
+  emotionCache: PropTypes.object, // eslint-disable-line
+  pageProps: PropTypes.object.isRequired, // eslint-disable-line
 };
