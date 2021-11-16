@@ -21,8 +21,6 @@ export default function MyApp(props) {
       <Head>
         <title>Yet Another Christmas Countdown!</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-<<<<<<< Updated upstream
-=======
 
         <meta name="apple-mobile-web-app-status-bar-style" content="#070026" />
 
@@ -40,7 +38,6 @@ export default function MyApp(props) {
         <meta name="og:image" content="https://yetanotherchristmascountdown.com/social-media-picture.jpg" />
 
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer>{}</script>
->>>>>>> Stashed changes
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
