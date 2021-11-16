@@ -169,10 +169,6 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-  .christmas-countdown-container {
-    -webkit-text-stroke-width: 1px;
-  }
-
   .label {
     font-size: 1.5rem;
   }
@@ -231,6 +227,36 @@ body {
   
   .number {
     font-size: 4.5rem;
+  }
+
+  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+    -webkit-text-size-adjust:none;
+  }  
+}
+
+@media screen and (min-width: 1200px) {
+  .label {
+    font-size: 2.5rem;
+  }
+  
+  .time-before-christmas, .merry-christmas {
+    -webkit-text-stroke-width: 2px;
+  }
+
+  .time-before-christmas {
+    font-size: 3rem;
+  }
+
+  .merry-christmas {
+    font-size: 9rem;
+  }
+  
+  .number {
+    font-size: 9rem;
+  }
+
+  .christmas-trees {
+    font-size: 3rem;
   }
 
   .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
