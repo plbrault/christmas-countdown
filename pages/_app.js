@@ -38,6 +38,9 @@ export default function MyApp(props) {
         <meta name="og:image" content="https://yetanotherchristmascountdown.com/social-media-picture.jpg" />
 
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer>{}</script>
+
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
