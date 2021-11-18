@@ -17,8 +17,17 @@ function getTimeToChristmas() {
     }
 
     const interval = Interval.fromDateTimes(now, christmas);
-    duration = interval.toDuration(['days', 'hours', 'minutes', 'seconds']).toObject();
-    duration.seconds = Math.floor(duration.seconds);
+    duration = interval.toDuration(['days', 'hours', 'minutes', 'seconds', 'milliseconds']).toObject();
+
+    if (duration.milliseconds > 0) {
+      if (duration.seconds < 59) {
+        duration.seconds += 1;
+      } else {
+        duration.minutes += 1;
+        duration.seconds = 0;
+      }
+    }
+
     duration.totalSeconds = christmas - now;
   }
 
