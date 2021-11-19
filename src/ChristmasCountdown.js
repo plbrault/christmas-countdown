@@ -9,20 +9,14 @@ export default function ChristmasCountdown() {
   const [timeToChristmas, setTimeToChristmas] = useState(getTimeToChristmas());
 
   useEffect(() => {
-    const timeToNextSecond = 1000 - timeToChristmas.milliseconds;
+    const intervalID = setInterval(() => {
+      const newTimeToChristmas = getTimeToChristmas();
+      setTimeToChristmas(newTimeToChristmas);
 
-    setTimeout(() => {
-      setTimeToChristmas(getTimeToChristmas());
-
-      const intervalID = setInterval(() => {
-        const newTimeToChristmas = getTimeToChristmas();
-        setTimeToChristmas(newTimeToChristmas);
-
-        if (newTimeToChristmas.totalSeconds === 0) {
-          clearInterval(intervalID);
-        }
-      }, 500);
-    }, timeToNextSecond);
+      if (newTimeToChristmas.totalSeconds === 0) {
+        clearInterval(intervalID);
+      }
+    }, 100); // interval of 100 instead of 1000 to minimize drift
   }, []);
 
   const {
