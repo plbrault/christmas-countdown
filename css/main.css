@@ -29,7 +29,7 @@ body {
   font-weight: bold;
 }
 
-.time-before-christmas, .merry-christmas {
+.time-before-christmas, .text-during-holidays {
   font-family: "AmaticSC";
   font-weight: bold;
   text-align: center;
@@ -48,7 +48,7 @@ body {
     font-size: 1.25rem;
   }
 
-  .merry-christmas {
+  .text-during-holidays {
     font-size: 3rem;
   }
   
@@ -56,7 +56,7 @@ body {
     font-size: 2.2275rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
     -webkit-text-size-adjust:none;
   }
 }
@@ -74,7 +74,7 @@ body {
     font-size: 1.3rem;
   }
 
-  .merry-christmas {
+  .text-during-holidays {
     font-size: 4rem;
   }
   
@@ -82,7 +82,7 @@ body {
     font-size: 2.2275rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -100,7 +100,7 @@ body {
     font-size: 1.5rem;
   }
 
-  .merry-christmas {
+  .text-during-holidays {
     font-size: 4rem;
   }
   
@@ -108,7 +108,7 @@ body {
     font-size: 2.2275rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -126,7 +126,7 @@ body {
     font-size: 1.5rem;
   }
 
-  .merry-christmas {
+  .text-during-holidays {
     font-size: 3rem;
   }
   
@@ -134,7 +134,7 @@ body {
     font-size: 2.2275rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -156,7 +156,7 @@ body {
     font-size: 1.875rem;
   }
 
-  .merry-christmas {
+  .text-during-holidays {
     font-size: 5.5rem;
   }
   
@@ -164,7 +164,7 @@ body {
     font-size: 2.8rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -178,7 +178,7 @@ body {
     font-size: 2.25rem;
   }
 
-  .merry-christmas {
+  .text-during-holidays {
     font-size: 6.5rem;
   }
   
@@ -186,7 +186,7 @@ body {
     font-size: 3.375rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -200,7 +200,7 @@ body {
     font-size: 2.25rem;
   }
 
-  .merry-christmas {
+  .text-during-holidays {
     font-size: 7.8rem;
   }
   
@@ -208,7 +208,7 @@ body {
     font-size: 3.375rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -222,7 +222,7 @@ body {
     font-size: 3rem;
   }
 
-  .merry-christmas {
+  .text-during-holidays {
     font-size: 9rem;
   }
   
@@ -230,7 +230,7 @@ body {
     font-size: 4.5rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -240,7 +240,7 @@ body {
     font-size: 2.5rem;
   }
   
-  .time-before-christmas, .merry-christmas {
+  .time-before-christmas, .text-during-holidays {
     -webkit-text-stroke-width: 2px;
   }
 
@@ -248,7 +248,7 @@ body {
     font-size: 3rem;
   }
 
-  .merry-christmas {
+  .text-during-holidays {
     font-size: 9rem;
   }
   
@@ -260,7 +260,7 @@ body {
     font-size: 3rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .merry-christmas, .number {
+  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
     -webkit-text-size-adjust:none;
   }  
 }

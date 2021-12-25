@@ -9,13 +9,9 @@ export default function ChristmasCountdown() {
   const [timeToChristmas, setTimeToChristmas] = useState(getTimeToChristmas());
 
   useEffect(() => {
-    const intervalID = setInterval(() => {
+    setInterval(() => {
       const newTimeToChristmas = getTimeToChristmas();
       setTimeToChristmas(newTimeToChristmas);
-
-      if (newTimeToChristmas.totalSeconds === 0) {
-        clearInterval(intervalID);
-      }
     }, 100); // interval of 100 instead of 1000 to minimize drift
   }, []);
 
@@ -24,6 +20,7 @@ export default function ChristmasCountdown() {
   } = timeToChristmas;
 
   const isChristmas = (totalSeconds === 0);
+  const isHolidays = (totalSeconds === -1);
 
   return (
     <Stack
@@ -44,8 +41,8 @@ export default function ChristmasCountdown() {
         🎄🎄🎄
       </Box>
       {
-        isChristmas ? (
-          <span className="merry-christmas">Merry Christmas!</span>
+        (isChristmas || isHolidays) ? (
+          <span className="text-during-holidays">{isChristmas ? 'Merry Christmas!' : 'Happy Holidays!'}</span>
         ) : (
           <Box className="time-before-christmas">
             <span className="number">{String(days).padStart(2, '0')}</span>
