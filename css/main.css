@@ -48,6 +48,10 @@ body {
   .time-before-christmas {
     font-size: 1.25rem;
   }
+
+  .merry-christmas {
+    font-size: 3rem;
+  }
   
   .number {
     font-size: 2.2275rem;
@@ -69,6 +73,10 @@ body {
   
   .time-before-christmas {
     font-size: 1.5rem;
+  }
+
+  .merry-christmas {
+    font-size: 4rem;
   }
   
   .number {
@@ -92,6 +100,10 @@ body {
   .time-before-christmas {
     font-size: 1.65rem;
   }
+
+  .merry-christmas {
+    font-size: 4rem;
+  }
   
   .number {
     font-size: 2.2275rem;
@@ -114,6 +126,10 @@ body {
   .time-before-christmas {
     font-size: 1.75rem;
   }
+
+  .merry-christmas {
+    font-size: 3rem;
+  }
   
   .number {
     font-size: 2.2275rem;
@@ -131,6 +147,10 @@ body {
   
   .time-before-christmas {
     font-size: 1.875rem;
+  }
+
+  .merry-christmas {
+    font-size: 5.5rem;
   }
   
   .number {
@@ -150,6 +170,32 @@ body {
   .time-before-christmas {
     font-size: 2.25rem;
   }
+
+  .merry-christmas {
+    font-size: 6.5rem;
+  }
+  
+  .number {
+    font-size: 3.375rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .christmas-trees {
+    font-size: 1.5rem;
+  }
+  
+  .label {
+    font-size: 1.5rem;
+  }
+  
+  .time-before-christmas {
+    font-size: 2.25rem;
+  }
+
+  .merry-christmas {
+    font-size: 7.8rem;
+  }
   
   .number {
     font-size: 3.375rem;
@@ -167,6 +213,10 @@ body {
   
   .time-before-christmas {
     font-size: 3rem;
+  }
+
+  .merry-christmas {
+    font-size: 9rem;
   }
   
   .number {
