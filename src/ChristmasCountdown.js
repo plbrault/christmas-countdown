@@ -43,24 +43,22 @@ export default function ChristmasCountdown() {
       <Box className="christmas-trees">
         🎄🎄🎄
       </Box>
-      <Box className="time-before-christmas">
-        {
-          isChristmas
-            ? (<span className="merry-christmas">Merry Christmas!</span>)
-            : (
-              <>
-                <span className="number">{String(days).padStart(2, '0')}</span>
-                &nbsp;days&nbsp;
-                <span className="number">{String(hours).padStart(2, '0')}</span>
-                &nbsp;hours&nbsp;
-                <span className="number">{String(minutes).padStart(2, '0')}</span>
-                &nbsp;minutes&nbsp;
-                <span className="number">{String(seconds).padStart(2, '0')}</span>
-                &nbsp;seconds
-              </>
-            )
-        }
-      </Box>
+      {
+        isChristmas ? (
+          <span className="merry-christmas">Merry Christmas!</span>
+        ) : (
+          <Box className="time-before-christmas">
+            <span className="number">{String(days).padStart(2, '0')}</span>
+            &nbsp;days&nbsp;
+            <span className="number">{String(hours).padStart(2, '0')}</span>
+            &nbsp;hours&nbsp;
+            <span className="number">{String(minutes).padStart(2, '0')}</span>
+            &nbsp;minutes&nbsp;
+            <span className="number">{String(seconds).padStart(2, '0')}</span>
+            &nbsp;seconds
+          </Box>
+        )
+      }
       <Box className="christmas-trees">
         🎄🎄🎄
       </Box>

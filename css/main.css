@@ -29,9 +29,10 @@ body {
   font-weight: bold;
 }
 
-.time-before-christmas {
+.time-before-christmas, .merry-christmas {
   font-family: "AmaticSC";
   font-weight: bold;
+  text-align: center;
 }
 
 @media screen and (min-width: 300px) {
