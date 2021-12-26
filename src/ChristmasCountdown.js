@@ -31,7 +31,7 @@ export default function ChristmasCountdown() {
       spacing={2}
     >
       {
-        isChristmas ? <> </> : (
+        (isChristmas || isHolidays) ? <> </> : (
           <Box className="label">
             Time Left Until Christmas
           </Box>
