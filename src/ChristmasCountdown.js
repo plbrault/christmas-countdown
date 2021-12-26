@@ -30,13 +30,9 @@ export default function ChristmasCountdown() {
       alignItems="center"
       spacing={2}
     >
-      {
-        (isChristmas || isHolidays) ? <> </> : (
-          <Box className="label">
-            Time Left Until Christmas
-          </Box>
-        )
-      }
+      <Box className="label">
+        {(isChristmas || isHolidays) ? '' : 'Time Left Until Christmas'}
+      </Box>
       <Box className="christmas-trees">
         🎄🎄🎄
       </Box>
