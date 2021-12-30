@@ -14,6 +14,8 @@ function getTimeToEvent(now, event) {
   }
 
   duration.totalSeconds = event - now;
+
+  return duration;
 }
 
 /**
