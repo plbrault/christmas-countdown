@@ -20,7 +20,7 @@ body {
   -webkit-text-stroke-width: 0.25px;
 }
 
-.christmas-trees {
+.emojis {
   font-size: 2rem;
 }
 
@@ -29,14 +29,14 @@ body {
   font-weight: bold;
 }
 
-.time-before-christmas, .text-during-holidays {
+.time-before-christmas, .text-during-event {
   font-family: "AmaticSC";
   font-weight: bold;
   text-align: center;
 }
 
 @media screen and (min-width: 300px) {
-  .christmas-trees {
+  .emojis {
     font-size: 1.3rem;
   }
   
@@ -48,7 +48,7 @@ body {
     font-size: 1.25rem;
   }
 
-  .text-during-holidays {
+  .text-during-event {
     font-size: 3rem;
   }
   
@@ -56,13 +56,13 @@ body {
     font-size: 2.2275rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
+  .emojis, .label, .time-before-christmas, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }
 }
 
 @media screen and (min-width: 350px) {
-  .christmas-trees {
+  .emojis {
     font-size: 1.3rem;
   }
   
@@ -74,7 +74,7 @@ body {
     font-size: 1.3rem;
   }
 
-  .text-during-holidays {
+  .text-during-event {
     font-size: 4rem;
   }
   
@@ -82,13 +82,13 @@ body {
     font-size: 2.2275rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
+  .emojis, .label, .time-before-christmas, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
 
 @media screen and (min-width: 378px) {
-  .christmas-trees {
+  .emojis {
     font-size: 1.3rem;
   }
   
@@ -100,7 +100,7 @@ body {
     font-size: 1.5rem;
   }
 
-  .text-during-holidays {
+  .text-during-event {
     font-size: 4rem;
   }
   
@@ -108,13 +108,13 @@ body {
     font-size: 2.2275rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
+  .emojis, .label, .time-before-christmas, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
 
 @media screen and (min-width: 400px) {
-  .christmas-trees {
+  .emojis {
     font-size: 1.3rem;
   }
   
@@ -126,7 +126,7 @@ body {
     font-size: 1.5rem;
   }
 
-  .text-during-holidays {
+  .text-during-event {
     font-size: 3rem;
   }
   
@@ -134,7 +134,7 @@ body {
     font-size: 2.2275rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
+  .emojis, .label, .time-before-christmas, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -144,7 +144,7 @@ body {
     -webkit-text-stroke-width: 0.5px;
   }
   
-  .christmas-trees {
+  .emojis {
     font-size: 1.25rem;
   }
   
@@ -156,7 +156,7 @@ body {
     font-size: 1.875rem;
   }
 
-  .text-during-holidays {
+  .text-during-event {
     font-size: 5.5rem;
   }
   
@@ -164,7 +164,7 @@ body {
     font-size: 2.8rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
+  .emojis, .label, .time-before-christmas, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -178,7 +178,7 @@ body {
     font-size: 2.25rem;
   }
 
-  .text-during-holidays {
+  .text-during-event {
     font-size: 6.5rem;
   }
   
@@ -186,7 +186,7 @@ body {
     font-size: 3.375rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
+  .emojis, .label, .time-before-christmas, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -200,7 +200,7 @@ body {
     font-size: 2.25rem;
   }
 
-  .text-during-holidays {
+  .text-during-event {
     font-size: 7.8rem;
   }
   
@@ -208,7 +208,7 @@ body {
     font-size: 3.375rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
+  .emojis, .label, .time-before-christmas, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -222,7 +222,7 @@ body {
     font-size: 3rem;
   }
 
-  .text-during-holidays {
+  .text-during-event {
     font-size: 9rem;
   }
   
@@ -230,7 +230,7 @@ body {
     font-size: 4.5rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
+  .emojis, .label, .time-before-christmas, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -240,7 +240,7 @@ body {
     font-size: 2.5rem;
   }
   
-  .time-before-christmas, .text-during-holidays {
+  .time-before-christmas, .text-during-event {
     -webkit-text-stroke-width: 2px;
   }
 
@@ -248,7 +248,7 @@ body {
     font-size: 3rem;
   }
 
-  .text-during-holidays {
+  .text-during-event {
     font-size: 9rem;
   }
   
@@ -256,11 +256,11 @@ body {
     font-size: 9rem;
   }
 
-  .christmas-trees {
+  .emojis {
     font-size: 3rem;
   }
 
-  .christmas-trees, .label, .time-before-christmas, .text-during-holidays, .number {
+  .emojis, .label, .time-before-christmas, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }

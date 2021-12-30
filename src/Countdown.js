@@ -5,6 +5,12 @@ import Stack from '@mui/material/Stack';
 
 import getTimeToNextEvent from './getTimeToNextEvent';
 
+const Emojis = ({ isNewYear, isNewYearsEve }) => (
+  <Box className="emojis">
+    {(isNewYear || isNewYearsEve) ? '🍾🍾🍾' : '🎄🎄🎄'}
+  </Box>
+);
+
 export default function Countdown() {
   const [timeToNextEvent, setTimeToNextEvent] = useState(getTimeToNextEvent());
 
@@ -22,7 +28,8 @@ export default function Countdown() {
   const isBeforeChristmas = (nextEvent === 'CHRISTMAS' && totalSeconds > 0);
   const isChristmas = (nextEvent === 'CHRISTMAS' && totalSeconds === 0);
   const isHolidays = (nextEvent === 'NEW_YEAR' && days > 0);
-  const isNewYearsEve = (nextEvent === 'NEW_YEAR' && days === 0);
+  const isNewYearsEve = (nextEvent === 'NEW_YEAR' && days === 0 && totalSeconds > 0);
+  const isNewYear = (nextEvent === 'NEW_YEAR' && totalSeconds === 0);
 
   return (
     <Stack
@@ -33,14 +40,12 @@ export default function Countdown() {
       spacing={2}
     >
       <Box className="label">
-        {(isChristmas || isHolidays) ? '' : 'Time Left Until Christmas'}
+        {isBeforeChristmas ? 'Time Left Until Christmas' : ''}
       </Box>
-      <Box className="christmas-trees">
-        🎄🎄🎄
-      </Box>
+      <Emojis isNewYear={isNewYear} isNewYearsEve={isNewYearsEve} />
       {
-        (isChristmas || isHolidays) ? (
-          <span className="text-during-holidays">{isChristmas ? 'Merry Christmas!' : 'Happy Holidays!'}</span>
+        (isChristmas || isHolidays || isNewYear) ? (
+          <span className="text-during-event">{isChristmas ? 'Merry Christmas!' : 'Happy Holidays!'}</span>
         ) : (
           <Box className="time-before-christmas">
             <span className="number">{String(days).padStart(2, '0')}</span>
@@ -54,9 +59,7 @@ export default function Countdown() {
           </Box>
         )
       }
-      <Box className="christmas-trees">
-        🎄🎄🎄
-      </Box>
+      <Emojis isNewYear={isNewYear} isNewYearsEve={isNewYearsEve} />
     </Stack>
   );
 }
