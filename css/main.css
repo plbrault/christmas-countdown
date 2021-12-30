@@ -20,6 +20,10 @@ body {
   -webkit-text-stroke-width: 0.25px;
 }
 
+.new-year {
+  color: green;
+}
+
 .emojis {
   font-size: 2rem;
 }
