@@ -41,11 +41,16 @@ export default function Countdown() {
     >
       <Box className="label">
         {isBeforeChristmas ? 'Time Left Until Christmas' : ''}
+        {isNewYearsEve ? 'Time Left Until New Year' : ''}
       </Box>
       <Emojis isNewYear={isNewYear} isNewYearsEve={isNewYearsEve} />
       {
         (isChristmas || isHolidays || isNewYear) ? (
-          <span className="text-during-event">{isChristmas ? 'Merry Christmas!' : 'Happy Holidays!'}</span>
+          <span className="text-during-event">
+            {isChristmas ? 'Merry Christmas!' : ''}
+            {isHolidays ? 'Happy Holidays!' : ''}
+            {isNewYear ? 'Happy New Year!' : ''}
+          </span>
         ) : (
           <Box className="time-before-christmas">
             <span className="number">{String(days).padStart(2, '0')}</span>
