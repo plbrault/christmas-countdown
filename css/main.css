@@ -11,7 +11,7 @@ body {
   height: 100%;
 }
 
-.christmas-countdown-container {
+.countdown-container {
   height: 100%;
   width: 90%;
   margin: auto;
@@ -140,7 +140,7 @@ body {
 }
 
 @media screen and (min-width: 500px) {
-  .christmas-countdown-container {
+  .countdown-container {
     -webkit-text-stroke-width: 0.5px;
   }
   
