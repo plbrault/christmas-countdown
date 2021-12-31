@@ -44,32 +44,33 @@ export default function Countdown() {
         {isNewYearsEve ? 'Time Left Until New Year' : ''}
       </Box>
       <Emojis isNewYear={isNewYear} isNewYearsEve={isNewYearsEve} />
-      {
-        (isChristmas || isHolidays || isNewYear) ? (
-          <span className="text-during-event">
-            {isChristmas ? 'Merry Christmas!' : ''}
-            {isHolidays ? 'Happy Holidays!' : ''}
-            {isNewYear ? 'Happy New Year!' : ''}
-          </span>
-        ) : (
-          <Box className={`time-before-next-event ${isNewYearsEve}`}>
-            {
-              (nextEvent === 'CHRISTMAS') ? (
-                <>
-                  <span className="number">{String(days).padStart(2, '0')}</span>
-                  &nbsp;days&nbsp;
-                </>
-              ) : ''
-            }
-            <span className="number">{String(hours).padStart(2, '0')}</span>
-            &nbsp;hours&nbsp;
-            <span className="number">{String(minutes).padStart(2, '0')}</span>
-            &nbsp;minutes&nbsp;
-            <span className="number">{String(seconds).padStart(2, '0')}</span>
-            &nbsp;seconds
-          </Box>
-        )
-      }
+      <span className="text-during-event">
+        {isChristmas ? 'Merry Christmas!' : ''}
+        {isHolidays ? 'Happy Holidays!' : ''}
+        {isNewYear ? 'Happy New Year!' : ''}
+      </span>
+      <Box className="time-before-next-event">
+        {
+          (isBeforeChristmas || isNewYearsEve) ? (
+            <>
+              {
+                (nextEvent === 'CHRISTMAS') ? (
+                  <>
+                    <span className="number">{String(days).padStart(2, '0')}</span>
+                    &nbsp;days&nbsp;
+                  </>
+                ) : ''
+              }
+              <span className="number">{String(hours).padStart(2, '0')}</span>
+              &nbsp;hours&nbsp;
+              <span className="number">{String(minutes).padStart(2, '0')}</span>
+              &nbsp;minutes&nbsp;
+              <span className="number">{String(seconds).padStart(2, '0')}</span>
+              &nbsp;seconds
+            </>
+          ) : (<> </>)
+        }
+      </Box>
       <Emojis isNewYear={isNewYear} isNewYearsEve={isNewYearsEve} />
     </Stack>
   );
