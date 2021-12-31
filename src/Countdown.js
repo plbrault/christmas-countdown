@@ -52,9 +52,15 @@ export default function Countdown() {
             {isNewYear ? 'Happy New Year!' : ''}
           </span>
         ) : (
-          <Box className="time-before-christmas">
-            <span className="number">{String(days).padStart(2, '0')}</span>
-            &nbsp;days&nbsp;
+          <Box className={`time-before-next-event ${isNewYearsEve}`}>
+            {
+              (nextEvent === 'CHRISTMAS') ? (
+                <>
+                  <span className="number">{String(days).padStart(2, '0')}</span>
+                  &nbsp;days&nbsp;
+                </>
+              ) : ''
+            }
             <span className="number">{String(hours).padStart(2, '0')}</span>
             &nbsp;hours&nbsp;
             <span className="number">{String(minutes).padStart(2, '0')}</span>

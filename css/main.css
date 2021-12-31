@@ -29,7 +29,7 @@ body {
   font-weight: bold;
 }
 
-.time-before-christmas, .text-during-event {
+.time-before-next-event, .text-during-event {
   font-family: "AmaticSC";
   font-weight: bold;
   text-align: center;
@@ -44,7 +44,7 @@ body {
     font-size: 1.25rem;
   }
   
-  .time-before-christmas {
+  .time-before-next-event {
     font-size: 1.25rem;
   }
 
@@ -56,7 +56,7 @@ body {
     font-size: 2.2275rem;
   }
 
-  .emojis, .label, .time-before-christmas, .text-during-event, .number {
+  .emojis, .label, .time-before-next-event, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }
 }
@@ -70,7 +70,7 @@ body {
     font-size: 1.25rem;
   }
   
-  .time-before-christmas {
+  .time-before-next-event {
     font-size: 1.3rem;
   }
 
@@ -82,7 +82,7 @@ body {
     font-size: 2.2275rem;
   }
 
-  .emojis, .label, .time-before-christmas, .text-during-event, .number {
+  .emojis, .label, .time-before-next-event, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -96,7 +96,7 @@ body {
     font-size: 1.25rem;
   }
   
-  .time-before-christmas {
+  .time-before-next-event {
     font-size: 1.5rem;
   }
 
@@ -108,7 +108,7 @@ body {
     font-size: 2.2275rem;
   }
 
-  .emojis, .label, .time-before-christmas, .text-during-event, .number {
+  .emojis, .label, .time-before-next-event, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -122,7 +122,7 @@ body {
     font-size: 1.25rem;
   }
   
-  .time-before-christmas {
+  .time-before-next-event {
     font-size: 1.5rem;
   }
 
@@ -134,7 +134,7 @@ body {
     font-size: 2.2275rem;
   }
 
-  .emojis, .label, .time-before-christmas, .text-during-event, .number {
+  .emojis, .label, .time-before-next-event, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -152,7 +152,7 @@ body {
     font-size: 1.25rem;
   }
   
-  .time-before-christmas {
+  .time-before-next-event {
     font-size: 1.875rem;
   }
 
@@ -164,7 +164,7 @@ body {
     font-size: 2.8rem;
   }
 
-  .emojis, .label, .time-before-christmas, .text-during-event, .number {
+  .emojis, .label, .time-before-next-event, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -174,7 +174,7 @@ body {
     font-size: 1.5rem;
   }
   
-  .time-before-christmas {
+  .time-before-next-event {
     font-size: 2.25rem;
   }
 
@@ -186,7 +186,7 @@ body {
     font-size: 3.375rem;
   }
 
-  .emojis, .label, .time-before-christmas, .text-during-event, .number {
+  .emojis, .label, .time-before-next-event, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -196,7 +196,7 @@ body {
     font-size: 1.5rem;
   }
   
-  .time-before-christmas {
+  .time-before-next-event {
     font-size: 2.25rem;
   }
 
@@ -208,7 +208,7 @@ body {
     font-size: 3.375rem;
   }
 
-  .emojis, .label, .time-before-christmas, .text-during-event, .number {
+  .emojis, .label, .time-before-next-event, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -218,7 +218,7 @@ body {
     font-size: 2rem;
   }
   
-  .time-before-christmas {
+  .time-before-next-event {
     font-size: 3rem;
   }
 
@@ -230,7 +230,7 @@ body {
     font-size: 4.5rem;
   }
 
-  .emojis, .label, .time-before-christmas, .text-during-event, .number {
+  .emojis, .label, .time-before-next-event, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
@@ -240,11 +240,11 @@ body {
     font-size: 2.5rem;
   }
   
-  .time-before-christmas, .text-during-event {
+  .time-before-next-event, .text-during-event {
     -webkit-text-stroke-width: 2px;
   }
 
-  .time-before-christmas {
+  .time-before-next-event {
     font-size: 3rem;
   }
 
@@ -260,7 +260,7 @@ body {
     font-size: 3rem;
   }
 
-  .emojis, .label, .time-before-christmas, .text-during-event, .number {
+  .emojis, .label, .time-before-next-event, .text-during-event, .number {
     -webkit-text-size-adjust:none;
   }  
 }
