@@ -20,6 +20,10 @@ body {
   -webkit-text-stroke-width: 0.25px;
 }
 
+.new-year {
+  color: #4fd125;
+}
+
 .label {
   font-family: "MountainsOfChristmas";
   font-weight: bold;
