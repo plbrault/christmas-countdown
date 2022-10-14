@@ -42,12 +42,33 @@ footer {
   text-align: center;
   font-family: "MountainsOfChristmas";
   font-size: 0.8rem;
-  text-transform: uppercase;
+  
 }
 
 footer a {
   color: #413a60;
   text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hide-footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #413a60;
+  text-decoration: underline;
+  background: none;
+  border: none;
+}
+
+.hide-footer::before {
+  content: "(";
+}
+
+.hide-footer::after {
+  content: ")";
+}
+
+.hide-footer:hover {
+  cursor: pointer;
 }
 
 footer a:hover {
