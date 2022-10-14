@@ -35,6 +35,25 @@ body {
   text-align: center;
 }
 
+footer {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+  font-family: "MountainsOfChristmas";
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+footer a {
+  color: #413a60;
+  text-decoration: none;
+}
+
+footer a:hover {
+  font-weight: bold;
+}
+
 @media screen and (min-width: 300px) {
   .countdown-container {
     -webkit-text-stroke-width: 0.25px;

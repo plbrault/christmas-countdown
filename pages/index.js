@@ -11,6 +11,9 @@ export default function Index() {
     <>
       <Snowfall />
       <Countdown />
+      <footer>
+        <a href="https://plbrault.com">&copy; 2022 P-L.Brault</a>
+      </footer>
     </>
   );
 }
