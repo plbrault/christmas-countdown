@@ -33,7 +33,7 @@ export default function Countdown() {
 
   return (
     <Stack
-      className="countdown-container"
+      className={`countdown-container ${(isNewYearsEve || isNewYear) ? 'new-year' : ''}`}
       direction="column"
       justifyContent="center"
       alignItems="center"
