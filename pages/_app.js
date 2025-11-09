@@ -37,7 +37,7 @@ export default function MyApp(props) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="og:image" content="https://yetanotherchristmascountdown.com/social-media-picture.jpg" />
 
-        <script defer src="https://api.pirsch.io/pa.js" id="pianjs" data-code="K9sNNFaeBvFqMPS3VZNc7q8rUC3rWRwb"></script>
+        <script defer src="https://api.pirsch.io/pa.js" id="pianjs" data-code="K9sNNFaeBvFqMPS3VZNc7q8rUC3rWRwb" />
 
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="icon" href="/favicon-32x32.png" />
