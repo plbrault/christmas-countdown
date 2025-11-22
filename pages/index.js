@@ -12,7 +12,7 @@ export default function Index() {
 
   useEffect(() => {
     setYear((new Date().getFullYear()));
-  });
+  }, []);
 
   return (
     <>
